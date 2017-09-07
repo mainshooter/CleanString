@@ -3,6 +3,7 @@
   echo "<br>";
   echo "<h2>String cleaner class</h2>";
   echo "<br>";
+
   $StringCleaner = new StringCleaner();
   $StringCleaner->setString("HOI iK bEn PETER               doei");
   echo $StringCleaner->getCleanedString();
@@ -22,6 +23,9 @@
     return($string);
   }
 
+  /**
+   * A class to clean strings
+   */
   class StringCleaner {
     public $string;
 
