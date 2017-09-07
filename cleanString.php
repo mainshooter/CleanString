@@ -1,5 +1,5 @@
 <?php
-  echo cleanString("HOI iK bEn PETER");
+  echo cleanString("HOI iK bEn PETER               doe");
 
   /**
    * Cleans a string
