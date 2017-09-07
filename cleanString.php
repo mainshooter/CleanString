@@ -1,5 +1,11 @@
 <?php
   echo cleanString("HOI iK bEn PETER               doei");
+  echo "<br>";
+  echo "<h2>String cleaner class</h2>";
+  echo "<br>";
+  $StringCleaner = new StringCleaner();
+  $StringCleaner->setString("HOI iK bEn PETER               doei");
+  echo $StringCleaner->getCleanedString();
 
   /**
    * Cleans a string
@@ -16,7 +22,7 @@
     return($string);
   }
 
-  class stringCleaner {
+  class StringCleaner {
     public $string;
 
     /**
